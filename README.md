@@ -16,6 +16,9 @@ https://data.netlab.360.com/dga/
 
 https://github.com/fanci-dga-detection/fanci
 
+### FANCI related presentation
+https://www.usenix.org/conference/usenixsecurity18/presentation/schuppen
+
 ### DGA classification and detection for automated malware analysis
 https://cyber.wtf/2017/08/30/dga-classification-and-detection-for-automated-malware-analysis/
 
