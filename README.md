@@ -7,6 +7,8 @@ LSTM: ShiQi Dai
 
 ## Data Source
 https://dgarchive.caad.fkie.fraunhofer.de/
+http://osint.bambenekconsulting.com/feeds/dga-feed.txt
+https://data.netlab.360.com/dga/
 
 ## Reading Materials
 
