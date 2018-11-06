@@ -4,7 +4,7 @@ DGA Detection with ML and DL
 
 ## Reading Materials
 DGA classification and detection for automated malware analysis
-https://cyber.wtf/2017/08/30/dga-classification-and-detection-for-automated-malware-analysis/
+ https://cyber.wtf/2017/08/30/dga-classification-and-detection-for-automated-malware-analysis/
 DGA Wiki
 https://www.wikiwand.com/en/Domain_generation_algorithm
 Botnet Wiki
