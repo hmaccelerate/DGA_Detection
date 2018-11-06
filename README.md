@@ -5,6 +5,9 @@ Feature engineering: Haimin Zhang, Lixi Zhou
 
 LSTM: ShiQi Dai
 
+## Data Source
+https://dgarchive.caad.fkie.fraunhofer.de/
+
 ## Reading Materials
 
 ### fanci-dga-detection source code
