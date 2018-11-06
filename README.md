@@ -7,6 +7,10 @@ LSTM: ShiQi Dai
 
 ## Reading Materials
 
+### fanci-dga-detection source code
+
+https://github.com/fanci-dga-detection/fanci
+
 ### DGA classification and detection for automated malware analysis
 https://cyber.wtf/2017/08/30/dga-classification-and-detection-for-automated-malware-analysis/
 
