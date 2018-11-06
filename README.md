@@ -2,6 +2,7 @@
 
 ## Plan
 Feature engineering: Haimin Zhang, Lixi Zhou
+
 LSTM: ShiQi Dai
 
 ## Reading Materials
