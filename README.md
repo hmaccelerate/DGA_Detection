@@ -1,5 +1,5 @@
 # CSYE7245_DGA_Detection
----------------------------------------------------------------------
+
 
 ## Course Information
 * **School**: College of Engineering, Northeastern University
@@ -11,8 +11,20 @@
 - Lixi Zhou
 - Shiqi Dai
 
+## Contents
+- [Topic Description](#topic-description)
+- [Background and Related Work](#background-and-related-work)
+- [Data Sources](#data-sources)
+- [Algorithms and Code Used](#algorithms-and-code-used)
+- [Reading Materials](#reading-materials)
+- [References](#references)
+***
+</br></br></br>
+</br></br></br>
 
-*******************************************************************
+
+
+
 
 ## Topic Description
 Domain generation algorithms(DGA) are used in various families of malware, which generate a large plenty of domain names that can be used as rendezvous points with their command and control (C2) servers. Security vendors usually used blacklists to identify malware, but DGA can constantly update domain to evade the blacklist detection. In order to solve this problem, instead of using low-efficient traditional methods, we will use machine learning algorithms to detect DGAs and compare the performance of these algorithms. 
@@ -48,7 +60,7 @@ Typically, CNN is used on image/audio data. It plays a vital role in cognitive c
 #### LSTM(Long Short-Term Memory Neural Network)
 Long short-term memory (LSTM) units are units of a recurrent neural network (RNN). An RNN composed of LSTM units is often called an LSTM network.
 
-***
+
 
 
 ## Reading Materials
@@ -77,7 +89,7 @@ Long short-term memory (LSTM) units are units of a recurrent neural network (RNN
 
 
 
-***
+
 
 ## References
 
