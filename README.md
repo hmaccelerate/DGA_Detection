@@ -12,19 +12,26 @@
 - Shiqi Dai
 
 ## Contents
+- [File Description](#file-description)
 - [Topic Description](#topic-description)
 - [Background and Related Work](#background-and-related-work)
 - [Data Sources](#data-sources)
 - [Algorithms and Code Used](#algorithms-and-code-used)
 - [Reading Materials](#reading-materials)
 - [References](#references)
-***
-</br></br></br>
-</br></br></br>
+
+---
+
+## File Description
+
+- `data`: store the data
+- `DGA related paper`: store related reference
+- DataProcessing.ipynb: iPython file to combine the **Normal Domain** dataset and **DGA Domains** dataset
+- FeatureEngineering.ipynb: iPython file to generate features of each domain
 
 
 
-
+--- 
 
 ## Topic Description
 Domain generation algorithms(DGA) are used in various families of malware, which generate a large plenty of domain names that can be used as rendezvous points with their command and control (C2) servers. Security vendors usually used blacklists to identify malware, but DGA can constantly update domain to evade the blacklist detection. In order to solve this problem, instead of using low-efficient traditional methods, we will use machine learning algorithms to detect DGAs and compare the performance of these algorithms. 
