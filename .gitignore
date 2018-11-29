@@ -70,6 +70,7 @@ fabric.properties
 #.idea/workspace.xml
 #.idea/inspectionProfiles/
 .idea
+.ipynb_checkpoints
 data/360_dga.txt
 data/dga-feed.txt
 data/top-1m-domain.csv
