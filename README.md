@@ -64,6 +64,7 @@ Long short-term memory (LSTM) units are units of a recurrent neural network (RNN
 
 
 ## Reading Materials
+[DGA related paper](https://drive.google.com/drive/folders/1K0xcrlRFCabCF4kBSoSy038gLC4t5iA1?usp=sharing)
 
 [FANCI-dga-detection source code](https://github.com/fanci-dga-detection/fanci)
 
