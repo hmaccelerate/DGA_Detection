@@ -61,10 +61,12 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
-.idea/CSYE7245_DGA_Detection.iml
-.idea/encodings.xml
-.idea/libraries/
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xml
+#.idea/CSYE7245_DGA_Detection.iml
+#.idea/encodings.xml
+#.idea/libraries/
+#.idea/misc.xml
+#.idea/modules.xml
+#.idea/vcs.xml
+#.idea/workspace.xml
+#.idea/inspectionProfiles/
+.idea
