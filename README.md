@@ -28,6 +28,7 @@
 - `DGA related paper`: store related reference
 - DataProcessing.ipynb: iPython file to combine the **Normal Domain** dataset and **DGA Domains** dataset
 - FeatureEngineering.ipynb: iPython file to generate features of each domain
+- DataDescription.md: Markdown file for the description of each attribute in dataset.
 
 
 
