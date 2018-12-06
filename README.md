@@ -14,6 +14,7 @@
 ## Contents
 - [File Description](#file-description)
 - [Topic Description](#topic-description)
+- [Attributs of the DGA dataset](#attributs-of-the-dga-dataset)
 - [Background and Related Work](#background-and-related-work)
 - [Data Sources](#data-sources)
 - [Algorithms and Code Used](#algorithms-and-code-used)
@@ -28,14 +29,71 @@
 - `DGA related paper`: store related reference
 - DataProcessing.ipynb: iPython file to combine the **Normal Domain** dataset and **DGA Domains** dataset
 - FeatureEngineering.ipynb: iPython file to generate features of each domain
-- DataDescription.md: Markdown file for the description of each attribute in dataset.
 
-
-
---- 
+---
 
 ## Topic Description
 Domain generation algorithms(DGA) are used in various families of malware, which generate a large plenty of domain names that can be used as rendezvous points with their command and control (C2) servers. Security vendors usually used blacklists to identify malware, but DGA can constantly update domain to evade the blacklist detection. In order to solve this problem, instead of using low-efficient traditional methods, we will use machine learning algorithms to detect DGAs and compare the performance of these algorithms. 
+
+## Attributs of the DGA dataset
+
+- DGA_Family: represents the family of DGA
+
+- Domain:
+
+- Type: represents that a domain is a DGA domain or Normal DGA
+
+    | Type | Value|
+    | ----- | ----|
+    | Normal | 0 |
+    | DGA | 1 |
+
+- DNL (Domain Name Length): represents the length of a domain
+
+- NoS (Number of Subdomains): represents the number of subdomains *Ignore valid public suffixes*
+
+- SLM (Subdomain Length Mean): represents the mean of subdomain length *Ignore valid public suffixes*
+
+- HwP (Has www Prefix):
+
+| HwP | Value|
+| ----- | ----|
+| Has www | 1 |
+| Does not have | 0 |
+
+- HVTLD (Has a Valid Top Level Domain): 
+
+| HVLTD | Value|
+| ----- | ----|
+| Has | 1 |
+| Does not have | 0 |
+
+- CSCS (Contains Single-Character Subdomain): *Ignore valid public suffixes*
+
+| CSCS | Value|
+| ----- | ----|
+| Has | 1 |
+| Does not have | 0 |
+
+- CTS (Contains Top Level Domain as Subdomain): *Ignore valid public suffixes*
+
+| CSCS | Value|
+| ----- | ----|
+| Has | 1 |
+| Does not have | 0 |
+
+- UR (Underscore Ratio): reprents the ratio of underscore *Ignore valid public suffixes*
+
+- CIPA (Contains IP Address): *Ignore valid public suffixes*
+
+| CIPA | Value|
+| ----- | ----|
+| Contains IP Address | 1 |
+| Does not contain | 0 |
+
+- Entropy
+
+- RRC (The probability of chars in string)
 
 ## Background and Related Work
 Internet security vendors have provided several strategies to intercept DGA traffic. In traditional, security providers would first decode the algorithm by applying reverse engineering. Generating a list of domains with a given seed, then preregister, sink-holed or put them into a DNS blacklist to prevent potential C2 traffic. Another common strategy is to find similar domain groups by using their statistical properties to determine if DGA generates a domain.  The main disadvantage of traditional strategies is the lack of capability to be used for real-time detection and protection. 
